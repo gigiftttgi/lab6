@@ -2,7 +2,16 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+	char re,an='0';
+	if(x<='Z' and x>='A')
+	{
+		if(x=='A')
+			{return 'Z';}
+		re = x-1;
+		return re;
+	}
+	else
+		{return an;}
 }
 
 int main(){
